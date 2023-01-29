@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../jeuFullstack"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "phaser3-project-template"
+	}
+}
