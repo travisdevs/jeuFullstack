@@ -1,25 +1,14 @@
+const canvas = document.querySelector("canvas");
+const c = canvas.getContext("2d");
 
-var config = {
-    type: Phaser.AUTO,
-    parent: 'phaser-example',
-    width: 800,
-    height: 600,
-    scene: {
-        preload: preload,
-        create: create
-    }
+canvas.width = 1280;
+canvas.height = 768;
+
+c.fillstyle = "white";
+c.fillRect(0, 0, canvas.width, canvas.height);
+
+const map = new Image();
+map.onload = () => {
+  c.drawImage(map, 0, 0);
 };
-
-var game = new Phaser.Game(config);
-
-function preload () /* Cette fonction permettra de charger des ressources dont nous aurons besoin pour le fonctionnement du jeu */
-{
-    this.load.image('logo', 'assets/logo.png');
-}
-
-function create ()
-{
-    var logo = this.add.image(800/2, 600/2, 'logo');
-
-
-}
+map.src = "assets/map.png";
