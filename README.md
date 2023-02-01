@@ -1,17 +1,22 @@
-# Phaser 3 Webpack Project Template
+# Crusade : A pixel art tower defense game project
 
-A Phaser 3 Project Template
+Using HTML, CSS and JS.
+
+!! Currently WIP !!
 
 ### Requirements
 
-We need [Node.js](https://nodejs.org) to install and run scripts.
+No requirements needed to run this game. You just need a browser capable of running javascript.
 
 ## Install and run
 
-Run next commands in your terminal:
+To install the game, simply download this repo as a zip, unzip the downloaded file, and done ! Crusade doesn't require any kind of extension to run. (you can also clone the repo)
 
-| Command | Description |
+Two ways of doing things :
+
+| Method | Description |
 |---------|-------------|
-| `npm install` | Install dependencies and launch browser with examples.|
-| `npm start` | Launch browser to show the examples. <br> Press `Ctrl + c` to kill **http-server** process. |
-=======
+| Liveserver  | Run the LiveServer extension on VSCode to run the repo folder instantly|
+| index.html | Launch the index.html in parent directory that will setup all the scripts required. |
+
+Thanks for visiting !
